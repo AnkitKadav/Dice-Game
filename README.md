@@ -8,8 +8,7 @@ Enjoy the dice game! Each time you refresh the page, it will generate new random
 Code Overview
 The JavaScript code in script.js handles the logic for generating random dice rolls, updating the dice images, and determining the winner. Here's a brief overview:
 
-javascript
-Copy code
+### javascript
 // Generate a random number between 1 and 6 for Player 1
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
@@ -19,8 +18,6 @@ var randomImageSource = "images/" + randomDiceImage;
 
 // Update the first dice image on the web page
 document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
-
-// -----------------------------------------------------------------//
 
 // Generate a random number between 1 and 6 for Player 2
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
